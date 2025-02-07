@@ -48,7 +48,7 @@ For example, when padding spaces, the first four small agents (**Blue Agent 0-3*
 We fixed this by manually identifying the correct indexes where each action type should start and sorting the padded action space accordingly.
 
 ### Training
-We trained our agents using the [RLLib PPO](https://docs.ray.io/en/latest/rllib/rllib-algorithms.html#ppo) implementation.
+We trained our agents using the [RLLib PPO](https://docs.ray.io/en/latest/rllib/rllib-algorithms.html#ppo) implementation. As mentioned above, we trained a shared policy across all agents.
 
 **Implementation:** [./punch_file_info_ppo](./punch_file_info_ppo)
 
